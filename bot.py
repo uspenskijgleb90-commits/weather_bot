@@ -522,7 +522,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text(
             "✏️ <b>Введите название города:</b>\n\n"
             "<i>Поддерживаются русские и английские названия\n"
-            "Пример: Москва, Йошкар-Ола, New York</i>",
+            "Пример: Москва, Йошкар-Ола</i>",
             parse_mode=ParseMode.HTML
         )
     
